@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Causas Sociais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Apoie Causas Sociais</h1>
+    </header>
+
+    <main>
+        <section id="causas">
+            <h2>Nossas Causas</h2>
+            <div class="causa">
+                <h3>Ajude Crianças Carentes</h3>
+                <p>Doe brinquedos, roupas ou alimentos para crianças em situação de vulnerabilidade.</p>
+                <button class="doar-btn" data-causa="criancas">Doar</button>
+            </div>
+            <div class="causa">
+                <h3>Proteja Animais Abandonados</h3>
+                <p>Ajude a alimentar, cuidar e encontrar lares para animais abandonados.</p>
+                <button class="doar-btn" data-causa="animais">Doar</button>
+            </div>
+            <div class="causa">
+                <h3>Combata a Fome</h3>
+                <p>Doe alimentos ou ajude a preparar refeições para pessoas em situação de rua.</p>
+                <button class="doar-btn" data-causa="fome">Doar</button>
+            </div>
+        </section>
+
+        <section id="doar" class="oculto">
+            <h2>Faça sua Doação</h2>
+            <p>Selecione o valor da sua doação:</p>
+            <div class="opcoes-doacao">
+                <button class="opcao-doacao" data-valor="10">R$ 10</button>
+                <button class="opcao-doacao" data-valor="25">R$ 25</button>
+                <button class="opcao-doacao" data-valor="50">R$ 50</button>
+                <button class="opcao-doacao" data-valor="100">R$ 100</button>
+                <button class="opcao-doacao" data-valor="200">R$ 200</button>
+                <button class="opcao-doacao" data-valor="500">R$ 500</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
